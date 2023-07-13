@@ -1,0 +1,179 @@
+
+body{
+	margin:0px;
+	
+}
+
+@font-face{
+	font-family: formula1-bold;
+	src:url('Formula1-Bold.otf') format('opentype');
+}
+@font-face{
+	font-family: formula1;
+	src:url(Formula1-Regular.otf) format('opentype');
+}
+html{
+	width: 100%;
+	height: 100%;
+	background-color:#121212 ;
+	font-family:formula1;
+	color:white
+}
+
+a{
+	text-decoration: none;
+	color:#E1E2DB;
+}
+
+#start{
+	display: flex;
+	background:radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image6.avif) no-repeat;
+	font-family: formula1-bold;
+	font-size: 30px;
+	background-position: 0% 80%;
+	background-size:cover;
+	justify-content: center;
+	padding:3em;
+	margin-bottom: 0.5em;
+}
+
+h1{
+	max-width: 600px;
+	text-align: center;
+}
+
+#title{
+	font-family: formula1-bold;
+	text-align: left;
+}
+
+#head{
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
+.break{
+	border-width: 2.5px;
+	border-color: white;
+	margin-bottom: 1em;
+}
+
+
+.heading{
+	display: inline;
+	font-size: 35px;
+
+}
+.block{
+	margin-bottom: 20px;
+}
+.headbutton{
+	background-color: #121212;
+	color:#E1E2DB;
+	border-color:#E1E2DB;
+	font-family: 'Titillium Web';
+	font-weight: 900;
+	padding:6px 14px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 7px;
+	margin-left: 20px;
+	cursor:pointer;
+	transition-duration: 400ms;
+	transform: all;
+}
+
+.headbutton:hover{
+	transform:scale(1.05 );
+	border-color: #E10600;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.arrow{
+	border: solid #FC1D1D;
+  	border-width: 0 3.5px 3.5px 0;
+  	display: inline-block;
+  	padding: 4px;
+  	transform: rotate(-45deg);
+}
+
+.part{
+	transition-duration: 300ms;
+	padding:1em;
+	padding-left:0em ;
+	margin:15px;
+
+}
+
+.part:hover{
+	border: 6px solid #E10600;
+	border-left: 0px;
+	border-radius: 20px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.container{
+	display:flex;
+	flex-wrap: wrap;
+
+}
+
+.images{
+	width:600px;
+	height:400px;
+	border-radius:10px;
+}
+
+
+
+.content{
+	margin-top:-0.3px;
+	opacity: 0;
+	max-width:590px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 300;
+	transition: opacity 800ms ease-in-out;
+	
+}
+
+.individual{
+	margin:10px;
+	margin-block:0px;
+	flex-grow:1;
+	transition: transform 800ms;
+}
+
+.individual:hover{
+	transform:scale(1.04);
+	flex-grow: 2;
+}
+.individual:hover >.content{
+	opacity: 1;
+}
+
+.final{
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	margin:15px;
+}
+
+.result{
+	width:70%;
+	height:40%;
+	border-radius:10px;
+	margin:10px;
+}
+
+.potrait{
+	width:35%;
+	height:40%;
+	border-radius:10px;
+	margin:10px;
+}
+
+
+
+
+
