@@ -29,7 +29,7 @@ a{
 	display: flex;
 	background:radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image6.avif) no-repeat;
 	font-family: formula1-bold;
-	font-size: 30px;
+	font-size: 1.7em;
 	background-position: 0% 80%;
 	background-size:cover;
 	justify-content: center;
@@ -123,6 +123,8 @@ h1{
 	width:36rem;
 	height:27rem;
 	border-radius:10px;
+	max-width:90%;
+	height:auto;
 }
 
 
