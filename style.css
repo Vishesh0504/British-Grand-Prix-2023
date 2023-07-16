@@ -115,12 +115,13 @@ h1{
 .container{
 	display:flex;
 	flex-wrap: wrap;
+	justify-content: center;
 
 }
 
 .images{
-	width:600px;
-	height:400px;
+	width:36rem;
+	height:27rem;
 	border-radius:10px;
 }
 
@@ -129,7 +130,7 @@ h1{
 .content{
 	margin-top:-0.3px;
 	opacity: 0;
-	max-width:590px;
+	max-width:34rem;
 	text-align: center;
 	font-size: 20px;
 	font-weight: 300;
@@ -140,13 +141,13 @@ h1{
 .individual{
 	margin:10px;
 	margin-block:0px;
-	flex-grow:1;
+	
 	transition: transform 800ms;
 }
 
 .individual:hover{
 	transform:scale(1.04);
-	flex-grow: 2;
+
 }
 .individual:hover >.content{
 	opacity: 1;
